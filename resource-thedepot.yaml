@@ -1,0 +1,118 @@
+kind: naas-v1
+metadata:
+  id: thedepotrca/naas-v1/thedepot
+  name: thedepot
+  namespace: thedepotrca
+  version: 1
+  offset: 27592224
+  uuid: ed5fd1f4-a6e2-4877-9be9-c6b34f011c71
+  event: 9e40f549-026c-4431-9634-8d3602e224f8
+  created: '2022-01-10T18:05:09.239Z'
+  createdBy: ldap:ngovardh
+  updated: '2022-01-12T17:28:23.091Z'
+  lastUpdatedBy: LifecycleOperator
+spec:
+  namespace: thedeporca
+  cluster: elrprdusr001
+  cloudId: ngovard3@optumcloud.com
+  askId: UHGWM110-003552
+  consoleAdGroup: GCP_hcck8s_console_access
+  resourceQuota:
+    limits:
+      cpu: 0.25
+      memory: 0.5
+    requests:
+      cpu: 0.25
+      memory: 0.5
+  enableLogging: true
+status:
+  ready: true
+  naas-agent:
+    access-details:
+      cluster: elrprdusr001
+      ca-cert: >-
+        LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUN5ekNDQWJPZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeE1EVXlOREUyTWpjeE1Wb1hEVE14TURVeU1qRTJNekl4TVZvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBT1AyClpBSU1jRVFEMmQ2cFBNaDBsM283TXB6WDhtbHFxZURYRGRSek1Zbmg5WDhRVDRISXkyWGt2azdieXBXSXZHV0EKOWNlUCtqSUx5NzZ5bnhaTmxBSCtUeHFQUzEyTGN1enVjS2doQnNQQXVTV0tjeGVOZktXYUFtcjhWNEIrQm9tcgpYZU1jNG1xaDluTmVkdVZmTHJIVGJuZVRGbGRYNW9RUDl1OEpVOTZRTnFoYjE2ZEVFYzF0aCtVUDgzY01IcjlFCndHV2piVkVHTzlGbXpvQmNVVHl4UjFRdzgvNk9NZ0UrMkxoZVdvbUhGdXZqcTZPNlNOOUEzbVFGMDBLSnNVcXcKUnI0Y091VVFtRVFzRjJ5WVdJSkhkcEdKYzVCK1BIeGJrMlZCa0NoTEpsZFZxb1lINHIvWkJzSDNXT2pneE5xQQpXcVlkS0tDODNHRjUxUUYyaDUwQ0F3RUFBYU1tTUNRd0RnWURWUjBQQVFIL0JBUURBZ0trTUJJR0ExVWRFd0VCCi93UUlNQVlCQWY4Q0FRQXdEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBRFNDL2o4Q3FvNi9Cb0hrVm9mZFJueTQKYUVnUUhvRmIxSW95QS9GZU9FNFNMdEhTY0VSWCtBVnI0YVk3OTRXVmIrNkNaUjJpTHI1Sm9TbFlxWnlJSHJkWQp0WUxocjMyZ3FYZlFzTmFyRmc2bzRxY0JqT200RUVtNFF2RnhmRkNuSG9HZUwzNFkzOVRwZWxicm9kN0xWQnpiClE5WjFoNXdQa2JTQmhkYnlkaFlaYkRoMUlhSDEwUzAyNzRMTU5ib09aSVhQZnAvajNRZmxzSTkyNWdTajZ5Q1kKcXhGbFNTbnpFcmFVbVFGM3NMTFRPcHZHTGM0bFl3SHJ3amdnUlNvbHNJTS9ObFJFY1R0WloyV3VZWk5oTFQ3eQpsT05rMkNhM0Fta1ZRT3JMU2hrelNMYUg1bFMyU1BWcHJNWUwrSWxrRWVxRnhhTVFDbEZlTGNVbFdXSzR4WHc9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+      server-url: https://10.28.67.67:443
+      account-name: thedeporca-hcc-naas-admin
+      token: >-
+        eyJhbGciOiJSUzI1NiIsImtpZCI6IlI5Zi1YOFpnd2NzcUpUR1czTG45aUhwR2dHMkYxZTJmR2xZeElVZTdWVUkifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJ0aGVkZXBvcmNhIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6InRoZWRlcG9yY2EtaGNjLW5hYXMtYWRtaW4tdG9rZW4tNmpwanIiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoidGhlZGVwb3JjYS1oY2MtbmFhcy1hZG1pbiIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjY4YTA4NWQ5LWRlYTAtNDQyZC1iOTg4LWViYzc5MTg4N2ExOSIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDp0aGVkZXBvcmNhOnRoZWRlcG9yY2EtaGNjLW5hYXMtYWRtaW4ifQ.TYkaRxT6dmvVjuaFzoAVqTS4izYn0esTF0SFpQ41jxb5yZbi2vxH3LAGfuLo33lZXb3Y5Ygc-mq6M5hGTwuwdewb_BRRYs5B5nk9L2c1ebNsNP4yAivyc5lACKQqonrDC29YfJ1g78aHb7M0YP9LxuajBcvsU2v7mjZEZIip9mGYRULWAKD_yqr_A3tBoOV3rvVzDspSsQunhRMoI-eN-bLggrc_iABwbBd8maodwwTHBZ4msm3UQbz_qjGzMTL2UWAAm1SUFbEZSBXoSG1jD_tgjhKhW5O2M90w7X0mRgh4i_f2j55NX2_EZYtDqizQ7TdYaNiYUNNSGr9BnPfMMw
+      k8s-namespace: thedeporca
+      splunk-index: cba_depot
+      console-ad-group: ''
+    metrics:
+      dashboard-url: >-
+        https://grafana.optum.com/d/034d6d5b2fe802d56eed6e5d446164/kubernetes-compute-resources-namespace-pods?orgId=1&refresh=10s&var-datasource=HccK8sThanosProdELRCore%20Prom&var-cluster=elr-prd-usr001&var-namespace=thedeporca
+    logging:
+      annotation:
+        splunk.com/index: cba_depot
+      incident: ''
+      splunk_pr: ''
+      splunk-dashboard-url: >-
+        https://phi-splunk.optum.com/en-GB/app/search/search?q=search%20index%3Dcba_depot
+  naasStatus: {}
+  actionHistory:
+    - started: '2022-01-12T17:27:58.120Z'
+      completed: '2022-01-12T17:28:23.091Z'
+      agents:
+        hcc-naas-agent: Complete
+      username: ldap:ngovardh
+      action: Update
+      onComplete:
+        success:
+          ready: true
+        failure:
+          ready: false
+      uuid: 85776f19-b790-4bce-981c-0db02c3bb696
+      actionState: success
+    - started: '2022-01-12T17:23:05.439Z'
+      completed: '2022-01-12T17:23:30.148Z'
+      agents:
+        hcc-naas-agent: Complete
+      username: ldap:ngovardh
+      action: Update
+      onComplete:
+        success:
+          ready: true
+        failure:
+          ready: false
+      uuid: b3629a84-779b-481c-98e6-09356f1a28dc
+      actionState: success
+    - started: '2022-01-12T17:06:31.698Z'
+      completed: '2022-01-12T17:06:53.188Z'
+      agents:
+        hcc-naas-agent: Complete
+      username: ldap:ngovardh
+      action: Update
+      onComplete:
+        success:
+          ready: true
+        failure:
+          ready: false
+      uuid: b53d0088-f6ee-4fc2-86c8-c9808f44a35f
+      actionState: success
+    - started: '2022-01-10T18:35:08.032Z'
+      completed: '2022-01-10T18:35:33.836Z'
+      agents:
+        hcc-naas-agent: Complete
+      username: ldap:ngovardh
+      action: Update
+      onComplete:
+        success:
+          ready: true
+        failure:
+          ready: false
+      uuid: e35dc654-7a39-4562-9663-2c30bc32778b
+      actionState: success
+    - started: '2022-01-10T18:05:09.263Z'
+      completed: '2022-01-10T18:06:21.755Z'
+      agents:
+        hcc-naas-agent: Complete
+      username: ldap:ngovardh
+      action: Create
+      onComplete:
+        success:
+          ready: true
+        failure:
+          ready: false
+      uuid: 33693544-6f90-400d-9cc3-f0ad86f8b33b
+      actionState: success
